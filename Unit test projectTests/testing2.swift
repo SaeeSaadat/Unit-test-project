@@ -11,8 +11,10 @@ import XCTest
 @testable import Unit_test_project
 
 
+// as long as we're in the projectTests folder (target) and a subclass if XCTestCase , all functions starting with "test" will be executed and tested during test !
+// that sentence had one too many "test"s in it !
 class testing2 : XCTestCase {
-    func checkST(){
+    func testcheckST(){
         let a = true
         XCTAssertFalse(!a)
     }
