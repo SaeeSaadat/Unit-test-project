@@ -30,5 +30,23 @@ class Unit_test_projectTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    func testHaterStartsNicely(){
+        let hater = Hater()
+        XCTAssertFalse(hater.hating)
+    }
+    
+    func testHaterAfterBadDay(){
+        var hater = Hater()
+        hater.hadABadDay()
+        XCTAssert(hater.hating)
+    }
+    
+    func testHaterAfterGoodDay(){
+        var hater = Hater()
+        hater.hadAGoodDay()
+        XCTAssertFalse(hater.hating)
+    }
+    
+    
 }

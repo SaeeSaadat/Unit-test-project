@@ -14,6 +14,8 @@
 		0000BD18244CE6980014128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0000BD17244CE6980014128F /* Assets.xcassets */; };
 		0000BD1B244CE6980014128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0000BD19244CE6980014128F /* LaunchScreen.storyboard */; };
 		0000BD26244CE6980014128F /* Unit_test_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000BD25244CE6980014128F /* Unit_test_projectTests.swift */; };
+		0000BD31244CE8470014128F /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000BD30244CE8470014128F /* Hater.swift */; };
+		003E25D3244CEBCC0002FB44 /* testing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E25D2244CEBCC0002FB44 /* testing2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0000BD21244CE6980014128F /* Unit test projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit test projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0000BD25244CE6980014128F /* Unit_test_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_test_projectTests.swift; sourceTree = "<group>"; };
 		0000BD27244CE6980014128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0000BD30244CE8470014128F /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		003E25D2244CEBCC0002FB44 /* testing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				0000BD17244CE6980014128F /* Assets.xcassets */,
 				0000BD19244CE6980014128F /* LaunchScreen.storyboard */,
 				0000BD1C244CE6980014128F /* Info.plist */,
+				0000BD30244CE8470014128F /* Hater.swift */,
 			);
 			path = "Unit test project";
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				0000BD25244CE6980014128F /* Unit_test_projectTests.swift */,
 				0000BD27244CE6980014128F /* Info.plist */,
+				003E25D2244CEBCC0002FB44 /* testing2.swift */,
 			);
 			path = "Unit test projectTests";
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			files = (
 				0000BD13244CE6950014128F /* ViewController.swift in Sources */,
 				0000BD0F244CE6950014128F /* AppDelegate.swift in Sources */,
+				0000BD31244CE8470014128F /* Hater.swift in Sources */,
 				0000BD11244CE6950014128F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0000BD26244CE6980014128F /* Unit_test_projectTests.swift in Sources */,
+				003E25D3244CEBCC0002FB44 /* testing2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPWS726989;
 				INFOPLIST_FILE = "Unit test project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Saadat.Unit-test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,6 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPWS726989;
 				INFOPLIST_FILE = "Unit test project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Saadat.Unit-test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
