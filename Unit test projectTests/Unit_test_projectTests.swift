@@ -37,8 +37,13 @@ class Unit_test_projectTests: XCTestCase {
     }
     
     func testHaterAfterBadDay(){
+        //Given
         var hater = Hater()
+        
+        //When
         hater.hadABadDay()
+        
+        //Then
         XCTAssert(hater.hating)
     }
     
