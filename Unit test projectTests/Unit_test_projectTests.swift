@@ -1,10 +1,5 @@
-//
-//  Unit_test_projectTests.swift
-//  Unit test projectTests
-//
-//  Created by Saee Saadat on 4/20/20.
-//  Copyright © 2020 Saee Saadat. All rights reserved.
-//
+// -> Hater
+
 
 import XCTest
 @testable import Unit_test_project

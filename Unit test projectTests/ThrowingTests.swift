@@ -1,10 +1,5 @@
-//
-//  ThrowingTests.swift
-//  Unit test projectTests
-//
-//  Created by Saee Saadat on 4/22/20.
-//  Copyright © 2020 Saee Saadat. All rights reserved.
-//
+// -> Game
+
 
 import XCTest
 @testable import Unit_test_project
@@ -44,7 +39,7 @@ class ThrowingTests: XCTestCase {
     //it's for functions that AREN'T SUPPOSED TO THROW
     //so throwing means something's wrong -> fail
     func test_playingPacMan_shouldNotThrow() throws {
-        let game = Game(name: "Dead Storm Rising")
+        let game = Game(name: "Pac Man")
         try game.play()
         //if it throws anything it's instant fail !
         
