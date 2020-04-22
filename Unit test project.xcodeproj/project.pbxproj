@@ -21,6 +21,8 @@
 		0077C085244DD84F0033CA4F /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C084244DD84F0033CA4F /* Converter.swift */; };
 		0077C087244DD9EC0033CA4F /* ConverterTests 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C086244DD9EC0033CA4F /* ConverterTests 1.swift */; };
 		0077C089244DDE690033CA4F /* ConverterTests 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C088244DDE690033CA4F /* ConverterTests 2.swift */; };
+		009FF98E245064EB0038D476 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FF98D245064EB0038D476 /* ThrowingTests.swift */; };
+		009FF9902450651F0038D476 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FF98F2450651F0038D476 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0077C084244DD84F0033CA4F /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		0077C086244DD9EC0033CA4F /* ConverterTests 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConverterTests 1.swift"; sourceTree = "<group>"; usesTabs = 0; };
 		0077C088244DDE690033CA4F /* ConverterTests 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConverterTests 2.swift"; sourceTree = "<group>"; };
+		009FF98D245064EB0038D476 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		009FF98F2450651F0038D476 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				0015358924505DFD00556232 /* Converter */,
 				0015358824505DCE00556232 /* General stuff */,
 				0015358A24505E1A00556232 /* DividerTests.swift */,
+				009FF98D245064EB0038D476 /* ThrowingTests.swift */,
 			);
 			path = "Unit test projectTests";
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				0000BD30244CE8470014128F /* Hater.swift */,
 				0077C084244DD84F0033CA4F /* Converter.swift */,
 				0015358624505D2200556232 /* Divider.swift */,
+				009FF98F2450651F0038D476 /* Game.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			files = (
 				0000BD13244CE6950014128F /* ViewController.swift in Sources */,
 				0000BD0F244CE6950014128F /* AppDelegate.swift in Sources */,
+				009FF9902450651F0038D476 /* Game.swift in Sources */,
 				0000BD31244CE8470014128F /* Hater.swift in Sources */,
 				0015358724505D2200556232 /* Divider.swift in Sources */,
 				0000BD11244CE6950014128F /* SceneDelegate.swift in Sources */,
@@ -273,6 +280,7 @@
 				0077C089244DDE690033CA4F /* ConverterTests 2.swift in Sources */,
 				0000BD26244CE6980014128F /* Unit_test_projectTests.swift in Sources */,
 				003E25D3244CEBCC0002FB44 /* testing2.swift in Sources */,
+				009FF98E245064EB0038D476 /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
