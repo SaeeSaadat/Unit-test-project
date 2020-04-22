@@ -17,7 +17,8 @@
 		0000BD31244CE8470014128F /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000BD30244CE8470014128F /* Hater.swift */; };
 		003E25D3244CEBCC0002FB44 /* testing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E25D2244CEBCC0002FB44 /* testing2.swift */; };
 		0077C085244DD84F0033CA4F /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C084244DD84F0033CA4F /* Converter.swift */; };
-		0077C087244DD9EC0033CA4F /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C086244DD9EC0033CA4F /* ConverterTests.swift */; };
+		0077C087244DD9EC0033CA4F /* ConverterTests 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C086244DD9EC0033CA4F /* ConverterTests 1.swift */; };
+		0077C089244DDE690033CA4F /* ConverterTests 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077C088244DDE690033CA4F /* ConverterTests 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +44,11 @@
 		0000BD25244CE6980014128F /* Unit_test_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_test_projectTests.swift; sourceTree = "<group>"; };
 		0000BD27244CE6980014128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0000BD30244CE8470014128F /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		00153582245056AD00556232 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		003E25D2244CEBCC0002FB44 /* testing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing2.swift; sourceTree = "<group>"; };
 		0077C084244DD84F0033CA4F /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
-		0077C086244DD9EC0033CA4F /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; usesTabs = 0; };
+		0077C086244DD9EC0033CA4F /* ConverterTests 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConverterTests 1.swift"; sourceTree = "<group>"; usesTabs = 0; };
+		0077C088244DDE690033CA4F /* ConverterTests 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConverterTests 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +106,12 @@
 		0000BD24244CE6980014128F /* Unit test projectTests */ = {
 			isa = PBXGroup;
 			children = (
-				0077C086244DD9EC0033CA4F /* ConverterTests.swift */,
+				0077C086244DD9EC0033CA4F /* ConverterTests 1.swift */,
+				0077C088244DDE690033CA4F /* ConverterTests 2.swift */,
 				0000BD25244CE6980014128F /* Unit_test_projectTests.swift */,
 				0000BD27244CE6980014128F /* Info.plist */,
 				003E25D2244CEBCC0002FB44 /* testing2.swift */,
+				00153582245056AD00556232 /* LifeCycleTests.swift */,
 			);
 			path = "Unit test projectTests";
 			sourceTree = "<group>";
@@ -224,7 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0077C087244DD9EC0033CA4F /* ConverterTests.swift in Sources */,
+				0077C087244DD9EC0033CA4F /* ConverterTests 1.swift in Sources */,
+				0077C089244DDE690033CA4F /* ConverterTests 2.swift in Sources */,
 				0000BD26244CE6980014128F /* Unit_test_projectTests.swift in Sources */,
 				003E25D3244CEBCC0002FB44 /* testing2.swift in Sources */,
 			);
@@ -386,7 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Saadat.Unit-test-project";
+				PRODUCT_BUNDLE_IDENTIFIER = Saadat.UnitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -405,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Saadat.Unit-test-project";
+				PRODUCT_BUNDLE_IDENTIFIER = Saadat.UnitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
